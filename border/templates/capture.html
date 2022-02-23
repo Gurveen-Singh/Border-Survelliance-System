@@ -1,0 +1,11 @@
+{% extends 'layout.html' %}
+{% block body %}
+  <div class="jumbotron text-center">
+  	<h1> BORDER CAMERA 1 </h1>
+  	<img id="bg" src="{{ url_for('live_feed') }}">
+	<br>
+	<br>
+	<a href="/capture" class="btn btn-primary btn-lg" role="button">!ALARM!</a>
+  </div>
+{% endblock %}
+
